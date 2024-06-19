@@ -1,0 +1,12 @@
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Logger\bin\Debug\Logger.dll
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Logger\bin\Debug\Logger.pdb
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Logger\obj\Debug\Logger.csproj.AssemblyReference.cache
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Logger\obj\Debug\Logger.dll
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Logger\obj\Debug\Logger.pdb
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Logger\bin\Debug\Logger.dll
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Logger\bin\Debug\Logger.pdb
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Logger\obj\Debug\Logger.csproj.AssemblyReference.cache
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Logger\obj\Debug\Logger.dll
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Logger\obj\Debug\Logger.pdb

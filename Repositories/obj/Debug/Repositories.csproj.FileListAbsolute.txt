@@ -1,0 +1,27 @@
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Repositories\bin\Debug\Repositories.dll
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Repositories\bin\Debug\Repositories.pdb
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Repositories\bin\Debug\Models.dll
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Repositories\bin\Debug\Models.pdb
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Repositories\obj\Debug\Repositories.csproj.AssemblyReference.cache
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Repositories\obj\Debug\Repositories.dll
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Repositories\obj\Debug\Repositories.pdb
+E:\5º_semestre\engenharia de software\web\Repositories\obj\Debug\Repositories.csproj.AssemblyReference.cache
+E:\5º_semestre\engenharia de software\web\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+E:\5º_semestre\engenharia de software\web\Repositories\obj\Debug\Repositories.dll
+E:\5º_semestre\engenharia de software\web\Repositories\obj\Debug\Repositories.pdb
+E:\5º_semestre\engenharia de software\web\Repositories\bin\Debug\Repositories.dll
+E:\5º_semestre\engenharia de software\web\Repositories\bin\Debug\Repositories.pdb
+E:\5º_semestre\engenharia de software\web\Repositories\bin\Debug\Models.dll
+E:\5º_semestre\engenharia de software\web\Repositories\bin\Debug\Models.pdb
+E:\5º_semestre\engenharia de software\web\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Repositories\bin\Debug\Repositories.dll
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Repositories\bin\Debug\Repositories.pdb
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Repositories\bin\Debug\Models.dll
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Repositories\bin\Debug\Models.pdb
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Repositories\obj\Debug\Repositories.csproj.AssemblyReference.cache
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Repositories\obj\Debug\Repositories.dll
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Repositories\obj\Debug\Repositories.pdb

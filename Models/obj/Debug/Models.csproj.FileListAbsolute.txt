@@ -1,0 +1,18 @@
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Models\bin\Debug\Models.dll
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Models\bin\Debug\Models.pdb
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Models\obj\Debug\Models.dll
+D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Models\obj\Debug\Models.pdb
+E:\5º_semestre\engenharia de software\web\Models\bin\Debug\Models.dll
+E:\5º_semestre\engenharia de software\web\Models\bin\Debug\Models.pdb
+E:\5º_semestre\engenharia de software\web\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+E:\5º_semestre\engenharia de software\web\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+E:\5º_semestre\engenharia de software\web\Models\obj\Debug\Models.dll
+E:\5º_semestre\engenharia de software\web\Models\obj\Debug\Models.pdb
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Models\bin\Debug\Models.dll
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Models\bin\Debug\Models.pdb
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Models\obj\Debug\Models.dll
+E:\5º_semestre\engenharia de software\trabalho agenda medica\web\Models\obj\Debug\Models.pdb

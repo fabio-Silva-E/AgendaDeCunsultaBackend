@@ -1,0 +1,59 @@
+
+------
+Data:12-04-2023 08:14:53 
+ Mensagem:Nome de objeto 'medic' inválido. 
+ StackTrace:   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Repositories.Database.SQLServer.ADO.Medico.get(String connectionString) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\Repositories\Database\SQLServer\ADO\Medico.cs:linha 22
+   em web_api.Controllers.MedicosController.Get() na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\MedicosController.cs:linha 13 
+ InnerException: 
+ Tipo do erro: System.Data.SqlClient.SqlException 
+ Source: .Net SqlClient Data Provider 
+ TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+------
+Data:12-04-2023 10:00:17 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Configurations.SQLServer.getConnectionString() na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Configurations\SQLServer.cs:linha 12
+   em web_api.Controllers.MedicosController..ctor() na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\MedicosController.cs:linha 13 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.String getConnectionString()
+
+------
+Data:12-04-2023 10:00:36 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Controllers.MedicosController.Get() na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\MedicosController.cs:linha 26 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.Web.Http.IHttpActionResult Get()
+
+------
+Data:12-04-2023 11:28:01 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Configurations.SQLServer.getConnectionString() na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Configurations\SQLServer.cs:linha 12
+   em web_api.Controllers.PacientesController..ctor() na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 17 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.String getConnectionString()
+
+------
+Data:12-04-2023 11:28:05 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Controllers.PacientesController.Get() na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 30 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.Web.Http.IHttpActionResult Get()

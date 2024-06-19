@@ -1,0 +1,188 @@
+
+------
+Data:05-04-2023 08:30:42 
+ Mensagem:Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: SQL Network Interfaces, error: 26 - Erro ao Localizar Servidor/Instância Especificada) 
+ StackTrace:   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 95 
+ InnerException: 
+ Tipo do erro: System.Data.SqlClient.SqlException 
+ Source: .Net SqlClient Data Provider 
+ TargetSite: Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+
+------
+Data:05-04-2023 08:35:26 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 89 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.Web.Http.IHttpActionResult Post(web_api.Models.Paciente)
+
+------
+Data:05-04-2023 08:35:37 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 89 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.Web.Http.IHttpActionResult Post(web_api.Models.Paciente)
+
+------
+Data:05-04-2023 08:35:41 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 89 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.Web.Http.IHttpActionResult Post(web_api.Models.Paciente)
+
+------
+Data:05-04-2023 08:35:43 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 89 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.Web.Http.IHttpActionResult Post(web_api.Models.Paciente)
+
+------
+Data:05-04-2023 08:35:45 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 89 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.Web.Http.IHttpActionResult Post(web_api.Models.Paciente)
+
+------
+Data:05-04-2023 08:35:48 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 89 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.Web.Http.IHttpActionResult Post(web_api.Models.Paciente)
+
+------
+Data:05-04-2023 08:36:05 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 89 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.Web.Http.IHttpActionResult Post(web_api.Models.Paciente)
+
+------
+Data:05-04-2023 08:36:08 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 89 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.Web.Http.IHttpActionResult Post(web_api.Models.Paciente)
+
+------
+Data:05-04-2023 08:36:10 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 89 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.Web.Http.IHttpActionResult Post(web_api.Models.Paciente)
+
+------
+Data:05-04-2023 08:36:12 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 89 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.Web.Http.IHttpActionResult Post(web_api.Models.Paciente)
+
+------
+Data:05-04-2023 08:36:21 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 89 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.Web.Http.IHttpActionResult Post(web_api.Models.Paciente)
+
+------
+Data:05-04-2023 08:48:28 
+ Mensagem:Os dados de sequência ou binários estão truncados na tabela 'consultorio.dbo.paciente', coluna 'nome'. Valor truncado: 'marcelo-quarta-01 klasjdklsajkdlsajdlksajkldjklsajkdjklsadjklsald sakd sd sa das dksajdklasdj lçasjd'.
+A instrução foi finalizada. 
+ StackTrace:   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 104 
+ InnerException: 
+ Tipo do erro: System.Data.SqlClient.SqlException 
+ Source: .Net SqlClient Data Provider 
+ TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+------
+Data:05-04-2023 09:07:00 
+ Mensagem:Nome de coluna 'nome' inválido. 
+ StackTrace:   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 130 
+ InnerException: 
+ Tipo do erro: System.Data.SqlClient.SqlException 
+ Source: .Net SqlClient Data Provider 
+ TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+------
+Data:05-04-2023 09:37:15 
+ Mensagem:Referência de objeto não definida para uma instância de um objeto. 
+ StackTrace:   em web_api.Configurations.SQLServer.getConnectionString() na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Configurations\SQLServer.cs:linha 12
+   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 120 
+ InnerException: 
+ Tipo do erro: System.NullReferenceException 
+ Source: web-api 
+ TargetSite: System.String getConnectionString()
+
+------
+Data:05-04-2023 10:33:34 
+ Mensagem:Sintaxe incorreta próxima à palavra-chave 'into'. 
+ StackTrace:   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em web_api.Controllers.PacientesController.Post(Paciente paciente) na D:\Cursos\moura\.net-angular-2022-turma04\aulas\projetos\web\web-api\Controllers\PacientesController.cs:linha 130 
+ InnerException: 
+ Tipo do erro: System.Data.SqlClient.SqlException 
+ Source: .Net SqlClient Data Provider 
+ TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
